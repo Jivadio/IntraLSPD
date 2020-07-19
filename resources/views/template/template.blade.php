@@ -22,6 +22,7 @@
 </head>
 <body>
     @yield('header');
+    @yield('main');
 </body>
 </html>
 
