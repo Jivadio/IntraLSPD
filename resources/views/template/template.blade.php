@@ -23,6 +23,7 @@
 <body>
     @yield('header');
     @yield('main');
+    @yield('footer')
 </body>
 </html>
 
