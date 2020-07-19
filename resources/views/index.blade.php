@@ -17,7 +17,7 @@
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="{!! asset(config('path.images')).'/suspect-1.jpg' !!}" style="width: 75px; height: 75px; border-radius: 150%;">
+                        <img src="{!! asset(config('path.suspect')).'/suspect-1.jpg' !!}" style="width: 75px; height: 75px; border-radius: 150%;">
                         <h5 style="color: white;">Sara Lopez-Aranda</h5>
                         <p style="color: white;">Viol - Délit de Fuite</p>
                         <br>
@@ -27,7 +27,7 @@
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img src="{!! asset(config('path.images')).'/suspect-2.jpg' !!}" style="width: 75px; height: 75px; border-radius: 150%;">
+                        <img src="{!! asset(config('path.suspect')).'/suspect-2.jpg' !!}" style="width: 75px; height: 75px; border-radius: 150%;">
                         <h5 style="color: white;">Karim Zenoud</h5>
                         <p style="color: white;">Délit de fuite</p>
                         <br>
@@ -37,7 +37,7 @@
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img src="{!! asset(config('path.images')).'/suspect-3.jpg' !!}" style="width: 75px; height: 75px; border-radius: 150%;">
+                        <img src="{!! asset(config('path.suspect')).'/suspect-3.jpg' !!}" style="width: 75px; height: 75px; border-radius: 150%;">
                         <h5 style="color: white;">Charles Fauchaux</h5>
                         <p style="color: white;">Excès de Vitesse Récidiviste</p>
                         <br>
