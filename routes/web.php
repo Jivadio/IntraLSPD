@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::resource('/', 'IndexController')->only('index');
 
+Route::get('dashboard', 'DashboardController@index')->middleware(['auth']);
+
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');

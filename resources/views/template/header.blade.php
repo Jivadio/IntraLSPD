@@ -39,11 +39,11 @@
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <i class="fas fa-play prefix grey-text"></i>
-          {!! Form::text('name', old('name'), ['class' => 'form-control validate']) !!}
-          {!! Form::label('name', 'Matricule', ['data-error' => 'wrong', 'data-success' => 'right']) !!}
-          @if ($errors->has('name'))
+          {!! Form::text('matricule', old('matricule'), ['class' => 'form-control validate']) !!}
+          {!! Form::label('matricule', 'Matricule', ['data-error' => 'wrong', 'data-success' => 'right']) !!}
+          @if ($errors->has('matricule'))
               <div class="invalid-feedback" style="color: red !important; display: block !important;">
-                {{$errors->first('name')}}
+                {{$errors->first('matricule')}}
               </div>
           @endif
         </div>
