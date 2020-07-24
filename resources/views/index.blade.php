@@ -6,6 +6,7 @@
 @endsection
 
 @section('main')
+<br><br>
     <div class="container">
         <div class="row">
             <div class="col-md-8 bg-dark text-center">
