@@ -9,7 +9,7 @@
                 <div class="ntmbtndemerde d-flex">
                     <div class="aligns-item-top">
                         @if (Auth::check())
-                        <button type="button" class="btn btn-indigo btn-sm" data-toggle="modal" data-target="#modalLoginForm">{{ Auth::user()->name }}</button>
+                        <button type="button" class="btn btn-indigo btn-sm" data-toggle="modal" data-target="#modalLoginForm">{{ Auth::user()->matricule }}</button>
                         @else
                         <button type="button" class="btn btn-indigo btn-sm" data-toggle="modal" data-target="#modalLoginForm"><i class="far fa-user fa-sm pr-2" aria-hidden="true"></i>Connexion</button>
                         @endif

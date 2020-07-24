@@ -21,8 +21,8 @@
     <title>@yield('title') | Intranet LSPD</title>
 </head>
 <body>
-    @yield('header');
-    @yield('main');
+    @yield('header')
+    @yield('main')
     @yield('footer')
 </body>
 </html>
